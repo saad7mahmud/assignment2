@@ -1,0 +1,237 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+}
+
+.head1 {
+
+    height: 500px;
+    width: 1000px;
+    border-radius: 30px;
+    background-color: #161616;
+    display: flex;
+    padding: 60px;
+}
+
+.parent1 {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    margin-top: 30px;
+
+}
+
+.cr7-image {
+    padding: 40px;
+}
+
+.headline1 {
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    line-height: 120%;
+}
+
+.paragraph1 {
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.button-watchnow {
+    background-color: #DD0000;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+}
+
+.fa-angle-right {
+    margin-left: 10px;
+}
+
+.parent-section2 {
+
+
+    /* background-color: aqua; */
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.onclick-menu {
+    width: 600px;
+    height: 200px;
+    background-color: #161616;
+    padding: 20px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 10px;
+    white-space: nowrap;
+
+
+}
+
+
+.blog-posts {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.upcoming-match,
+.all-group {
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin: 15px;
+
+}
+
+.clickable-blog {
+    background-color: #DD0000;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin: 15px;
+    color: white;
+
+
+}
+
+.transfer-button {
+    display: block;
+    text-decoration: none;
+    color: black;
+    /* background-color: #DD0000; */
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.transfer-button:hover {
+    background-color: rgb(36, 155, 72);
+    color: white;
+}
+
+.blog-image1 {
+
+    border-radius: 10px;
+
+}
+
+.fa-clock,
+.fa-message {
+    margin: 15px;
+}
+
+.blog-post1 {
+    /* border: 2px solid black; */
+    width: 280px;
+    padding: 20px;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    /* background-color: bisque; */
+    margin: 0px 15px 15px 15px;
+    box-shadow: 2px 2px 20px 1px rgb(238, 238, 238);
+}
+
+.blog-para {
+    margin: 0;
+}
+
+footer {
+    background-color: #161616;
+
+    height: 400px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer-items {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+
+}
+
+.footer-items:hover {
+    color: rgb(180, 180, 180);
+}
+
+hr {
+    margin: 40px;
+
+}
+
+.footer-points {
+    text-align: center;
+}
+
+.footer-title {
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+
+}
+
+.social-icons {
+
+    text-align: center;
+}
+
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter,
+.fa-linkedin {
+    color: white;
+    margin: 60px 20px;
+    font-size: 30px;
+
+}
+
+.fa-facebook:hover,
+.fa-instagram:hover,
+.fa-twitter:hover,
+.fa-linkedin:hover {
+    color: rgb(192, 192, 192);
+}
+.see-all{
+    background-color: #DD0000;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 10px 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.see-all-parents{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    /* visibility: hidden; */
+
+}
