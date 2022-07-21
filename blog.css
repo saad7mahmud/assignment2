@@ -112,14 +112,14 @@ body {
 
 }
 .upcoming-match{
-    background-color: #ffffff;
+    background-color: #a4d6ff;
     font-size: 15px;
     text-align: center;
     padding: 15px 10px;
     border-radius: 10px;
     margin: 15px;
     text-decoration: none;
-    color: rgb(17, 192, 177);
+    color: rgb(0, 0, 0);
 }
 .internal-switch{
     text-decoration: none;
